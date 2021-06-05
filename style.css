@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Sulphur+Point:wght@300;400;700&display=swap');
+
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  background: black;
+  margin: 0;
+}
+
+h1{
+  font-family: Sulphur Point;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 64px;
+  color: #FFFFFF;
+}
+
+h2 {
+  font-family: Sulphur Point;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+#menu {
+  margin-top: 3em;
+  font-variant: small-caps;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 18em;
+  margin-right: 18em;
+  text-decoration: none;
+}
+
+#phrase{
+  margin-bottom: 1.5em;
+  text-align: center;
+}
+
+#header {
+  background: url("https://lh3.googleusercontent.com/55CP3GjLUAcU4phhzsjYzVanwxksmQma2Yx83AL0xal5c_Qa55oRFkUAJq3T9QWCvud0q1ZuA9rq6jiauts95Jdnwij83-sb873Kwdp0CS1e_C7sKpLcvh09dxY_SzDaMH8YrzpFNME=w2400");
+  background-position: center;
+  background-color: #00002a;
+  background-size: cover;
+  width: cover;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#logo {
+  align-items: center;
+  text-align:center;
+  
+}
+
+#why {
+  margin: 9em 2em 9em 2em;
+  text-align: center;
+}
+
+.cardText{
+  margin-left: 1.5em;
+  margin-bottom: 0em;
+}
+
+.Desc {
+  margin-left: 5.25em;
+  margin-bottom: 4em;
+}
+
+.arrow{
+  margin-left: auto;
+  padding-bottom: 5em;
+  padding-right: 6em;
+}
+
+#photo {
+  background: url("https://lh3.googleusercontent.com/yAY_eXfOzb9S73uDZfzek_t87RxS2vJ6ACsADE7BvTMwGSIXjws56Izu7SUgWjP50HF-k-_cleVJ05ValuWxZ0eUaHi6HiwTmfQWAZLstMXde2jfgRiOAL8nmvvIlKKT_vDndkujW4s=w2400");
+  background-position: center;
+  background-color: #00002a;
+  background-size: cover;
+  width: cover;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+#display{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* #display {
+  width:100%
+  height: 400px;
+  display: grid;
+  grid-template: 400px / repeat(8, 1fr);
+} */
+
+.photodisp {
+  max-width: 237px;
+  height: 400px;
+  object-fit: cover;
+}
+
+#design {
+  background: url("https://lh3.googleusercontent.com/vr2N-v3MT6IBenMNSxnIRtRZWxw0tYj9gF9L2nwaBaOKh0NL3-1uUjvzGSAcYwfE3T-V8gCpk2Wbf6jIpa_kb7A8ps2I5d2hIZfh3wHMeJA4S01S3ELD5cj57lrcd71e7lN4fi3NyYY=w2400");
+  background-position: center;
+  background-color: #00002a;
+  background-size: cover;
+  width: cover;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.displaydesign{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.design {
+  max-width: 100%;
+  height: 400px;
+  object-fit: cover;
+  margin: 2em 1em 2em 1em;
+}
+
+
+#about {
+  height: 1350px;
+  width 100%;
+  display: grid;
+  grid-template: 75px repeat(22, 50px) 75px / 200px 1fr 1fr 200px;
+}
+
+#aboutHead {
+  grid-area: 2 / 2 / span 1 / span 1;
+  
+}
+
+#bio {
+  grid-area: 2 / 3 / span 1 / span 1;
+  margin-top: 3em;
+}
+
+#me {
+  height: 100%;
+  width: 100%;
+  grid-area: 7 / 3 / span 18 / span 1;
+}
+
+.contact {
+  grid-area: 22 / 2 / span 1 / span 1;
+  
+}
+
+.email {
+  grid-area: 23 / 2 / span 1 / span 1;
+}
+
+.email a {
+  color: #A9A9A9;
+}
+
+.linkedin {
+  grid-area: 24 / 2 / span 1 / span 1;
+  
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 0.75rem;
+  }
+  h2{
+    font-size: 0.75rem;
+  }
+  p{
+    font-size: 0.75rem;
+  }
+}
